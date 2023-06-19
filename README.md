@@ -1,2 +1,2 @@
 # portfolio
- https://ritakhor.github.io/portfolio/
+ https://ritakhor.github.io/portfolio/dist
