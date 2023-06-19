@@ -1,7 +1,6 @@
 .title {
   font-weight: 700;
-  font-size: 48px;
-  line-height: 36px;
+  font-size: 36px;
   color: #000000;
   &_fz16 {
     font-size: 16px;
@@ -9,5 +8,15 @@
   }
   &_fz48 {
     font-size: 48px;
+  }
+  &_fz14 {
+    font-size: 14px;
+  }
+  &_about {
+    margin-top: 15px;
+  }
+  &_fz20 {
+    font-size: 20px;
+    line-height: 30px;
   }
 }

@@ -1,0 +1,44 @@
+.resume {
+  padding: 120px 0 0 65px;
+  &__subtitle {
+    text-align: center;
+    position: relative;
+    @include circle;
+    &:before {
+      left: 50%;
+      top: -6px;
+      transform: translateX(-50%);
+    }
+  }
+  &__title {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 425px);
+    gap: 136px;
+    margin-top: 60px;
+  }
+  &__column {
+    ul {
+      list-style: none;
+    }
+    &-title {
+      padding-left: 50px;
+      position: relative;
+      @include circle;
+      &:before {
+        width: 15px;
+        height: 15px;
+        top: 4px;
+      }
+    }
+  }
+}
+.divider {
+  width: 60px;
+  height: 4px;
+  background-color: $main-color;
+  margin: 0 auto;
+}
