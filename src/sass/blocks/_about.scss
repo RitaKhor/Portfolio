@@ -3,7 +3,7 @@
   &__wrapper {
     display: grid;
     grid-template-columns: 400px 670px;
-    grid-template-rows: minmax(245px, auto) minmax(255px, auto);
+    grid-template-rows: auto 1fr;
     gap: 40px 70px;
   }
   &__photo {
@@ -26,7 +26,7 @@
   }
   &__list {
     display: grid;
-    grid-template: 1fr 1fr/1fr 1fr;
+    grid-template: auto 1fr/1fr 1fr;
     gap: 37px 50px;
   }
   &__item {
@@ -52,7 +52,8 @@
   }
   .divider {
     width: 60px;
-    height: 4px;
+    height: 3px;
     background-color: $main-color;
+    margin: 0;
   }
 }

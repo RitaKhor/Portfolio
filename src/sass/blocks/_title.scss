@@ -20,3 +20,13 @@
     line-height: 30px;
   }
 }
+.subtitle {
+  text-align: center;
+  position: relative;
+  @include circle;
+  &:before {
+    left: 50%;
+    top: -6px;
+    transform: translateX(-50%);
+  }
+}
